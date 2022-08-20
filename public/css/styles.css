@@ -1,0 +1,9 @@
+.modal_auth{
+    background-color: aqua;
+    animation: modal 2s;
+}
+
+@keyframes modal{
+    from{transform: translateY(-150px); opacity: 0;}
+    to{transform: translateY(0px); opacity: 1;}
+}
